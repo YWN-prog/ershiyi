@@ -1,0 +1,31 @@
+{
+  "port": 7860,
+  "engine": {
+    "mode": "qwen3_tts",
+    "model_name": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "max_new_tokens": 1024,
+    "timeout_seconds": 300,
+    "hf_endpoint": "https://hf-mirror.com",
+    "leading_spaces": 1,
+    "speed": 1.15,
+    "command": [
+      "f5-tts_infer-cli",
+      "--model",
+      "F5TTS_v1_Base",
+      "--ref_audio",
+      "{reference_audio}",
+      "--ref_text",
+      "{reference_text}",
+      "--gen_text",
+      "{text}",
+      "--output_dir",
+      "{output_dir}",
+      "--output_file",
+      "{output_name}",
+      "--device",
+      "{device}",
+      "--speed",
+      "{speed}"
+    ]
+  }
+}
