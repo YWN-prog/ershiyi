@@ -36,10 +36,7 @@
 
 如果觉得这个工具做得不错，可以请作者喝一杯咖啡，感谢你的支持。
 
-<p align="center">
-  <img src="wechat_pay.jpg" alt="微信收款码" width="230" />&nbsp;&nbsp;&nbsp;
-  <img src="alipay.jpg" alt="支付宝收款码" width="230" />
-</p>
+![微信收款码](wechat_pay.jpg) ![支付宝收款码](alipay.jpg)
 
 （若图片无法显示，请在项目根目录保留 `wechat_pay.jpg` 和 `alipay.jpg` 两个文件。）
 
