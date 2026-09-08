@@ -1,1 +1,0 @@
-const t="qzone-archive-page-interval",n=2e3,r=3e3;function I(){const e=Number(localStorage.getItem(t));return Number.isFinite(e)?Math.min(3e4,Math.max(2e3,Math.round(e))):3e3}function o(e){const a=Math.min(3e4,Math.max(2e3,Math.round(e||3e3)));return localStorage.setItem(t,String(a)),a}function A(){localStorage.removeItem(t)}export{r as D,n as M,I as g,A as r,o as s};
